@@ -1,0 +1,238 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+nav{
+    padding: 0 50px;
+    width: 100%;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+nav{
+    padding: 0 50px;
+    width: 100%;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.navbar-one{
+    background-color: #ffff;
+    color: #000fff;
+    height: 70px;
+    cursor: pointer;
+}
+
+.left >div + div{
+margin-left: 40px;
+}
+.right > div{
+    margin-left: 40px;
+}
+
+.left > div:hover,
+.right >div:hover{
+    color: #000;
+    transition: all 0,5s;
+}
+
+span{
+    margin-left: 5px;
+}
+
+.navbar-second{
+    background-color: gray;
+    height: 60px;
+
+}
+
+.logo{
+    text-transform: uppercase;
+    font-size: 24px;
+    cursor: pointer;
+    color: #007bff;
+}
+li{
+    list-style: none;
+
+}
+
+a{
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 16px;
+    margin-left: 30px;
+    color: #000;
+    font-weight: 400 ;
+}
+
+
+img{
+    width: 100%;
+    height: 75vh;
+    
+}
+
+
+.tayler{
+    padding: 20px;
+    font-size: 20px;
+    color: #000fff;
+}
+
+.container{
+    max-width: 450px;
+    margin: 10px;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 15px rgba(0,0,0,3);
+    position: absolute;
+    top: 730px;
+    left: 35px;
+}
+
+.cont{
+    margin-bottom: 09px;
+}
+
+.call{
+    line-height: 1.4;
+}
+
+.enf{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 20%;
+    float: left;
+    shape-outside: margin-box;
+    margin: 0px 20px 5px 0;
+}
+
+.enfts{
+     width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 20%;
+    float: left;
+    shape-outside: margin-box;
+    margin: 0 20px 5px 0;
+}
+
+.josi{
+    max-width: 450px;
+    margin: 15px;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 15px rgba(0,0,0,3);
+    position: absolute;
+    right: 35px;
+    top: 750px; 
+    margin: 0 20px 5px 0;
+    height: 250px;
+    width: 500px;
+    float: right;
+    shape-outside: margin-box;
+}
+
+
+
+.jim{
+    text-align: right;
+}
+
+.flo{
+  max-width: 450px;
+  margin: 10px;
+  padding: 40px;
+  border-radius: 15px;
+ box-shadow: 5px 5px 15px rgba(0,0,0,3);
+ width: 900px;
+ position: absolute;
+ top: 300px;
+ right: 0px;
+}
+
+.en-t{
+    
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 20%;
+    float: left;
+    shape-outside: margin-box;
+    margin: 0 20px 5px 0;
+    position: relative;
+
+}
+
+.ehh{
+    max-width: 450px;
+  margin: 10px;
+  padding: 40px;
+  border-radius: 15px;
+ box-shadow: 5px 5px 15px rgba(0,0,0,3);
+ width: 900px;
+ position: absolute;
+ top: 300px;
+ right: 725px;
+    
+}
+
+.fhum{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 20%;
+    float: left;
+    shape-outside: margin-box;
+    margin: 0 20px 5px 0; 
+    
+}
+
+.oui{
+    max-width: 450px;
+  margin: 10px;
+  padding: 40px;
+  border-radius: 15px;
+ box-shadow: 5px 5px 15px rgba(0,0,0,3);
+ width: 900px;
+ position: absolute;
+ top: 600px;
+ right: 725px;
+}
+
+.mot{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 20%;
+    float: left;
+    shape-outside: margin-box;
+    margin: 0 20px 5px 0px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+
+    
+}
+
